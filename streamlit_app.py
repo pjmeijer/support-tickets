@@ -130,7 +130,7 @@ edited_df = st.data_editor(
     # Disable editing the ID and Date Submitted columns.
     disabled=["ID", "Date Submitted"],
 )
-
+st.write(st.session_state.df)
 # Show some metrics and charts about the ticket.
 st.header("Statistics")
 
